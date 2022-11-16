@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LineTicknessExample.MainPage">
+
+    <Grid WidthRequest="200" HeightRequest="200" BackgroundColor="LightGray">
+        <Line X1="0" Y1="0" X2="100" Y2="100" Stroke="red" StrokeThickness="10"/>
+        <Line X1="200" Y1="0" X2="100" Y2="100" Stroke="red" StrokeThickness="10"/>
+        <Line X1="200" Y1="0" X2="100" Y2="100" Stroke="black" StrokeThickness="1"/>
+    </Grid>
+</ContentPage>
